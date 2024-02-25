@@ -1,0 +1,140 @@
+$buttonColor: #1b88f4;
+
+.home-page {
+  width: 70%;
+  margin: auto;
+
+  padding: 10px;
+  font-family: "Inter";
+  padding: 35px;
+}
+.heading {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #2c384a;
+  margin-bottom: 10px;
+}
+.hr-line {
+  border: 1px solid #e1e4e6;
+}
+.updated-details {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #4b5665;
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.utility-list {
+  list-style: none;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  li {
+    margin-right: 80px;
+    color: #4b5665;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+.update-date-disclosure {
+  display: flex;
+  color: #4b5665;
+
+  .updated-date {
+    display: flex;
+
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  .disclosure {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.check-icon {
+  margin-right: 10px;
+}
+.relevant-search {
+  display: flex;
+  align-items: center;
+  color: #727d87;
+
+  .relevant-text {
+    margin-right: 10px;
+  }
+}
+
+.path-details {
+  .path-select {
+    color: #727d87;
+  }
+  span,
+  a {
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  span {
+    width: 10px;
+    height: 8.25px;
+    color: #5c6874;
+  }
+  a {
+    font-size: 14px;
+    color: #5c6874;
+  }
+}
+
+// sign up section
+
+.sign-up-section {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-size: 32px;
+    color: #5c6874;
+    line-height: 44px;
+  }
+  button {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    background-color: $buttonColor;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    width: 97px;
+    height: 52px;
+  }
+}
+
+.product-details {
+  margin-top: 35px;
+  width: 1024px;
+}
+
+// related products
+.related-products {
+  margin-top: 100x;
+  margin-bottom: 100px;
+  line-height: 44px;
+}
+.related-product-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
+}

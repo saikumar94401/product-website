@@ -1,0 +1,78 @@
+.related-product-card {
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+}
+
+.related-product-heading {
+  font-size: 32px;
+  color: #2c384a;
+}
+.related-product-img {
+  width: 141px;
+  height: 103px;
+  align-self: center;
+}
+.related-product-rating-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.related-product-offer-card {
+  color: rgba(7, 71, 134);
+  .discount-off {
+    font-size: 13px;
+    background: rgba(7, 71, 134, 0.1);
+    margin-right: 30px;
+    padding: 5px;
+  }
+  .limited-text {
+    background: rgba(7, 71, 134, 0.1);
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+.related-product-name {
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.related-product-name,
+.related-product-description {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(98, 110, 121, 1);
+}
+
+.related-product-price-card {
+  .related-product-price {
+    color: rgba(92, 104, 116, 1);
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 10px;
+  }
+  .related-product-discount-price {
+    color: #9fa9b3;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 10px;
+  }
+  .related-product-discount {
+    color: #ef4c5d;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+.related-product-view-btn {
+  width: 292px;
+  height: 48px;
+  background-color: #1b88f4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
